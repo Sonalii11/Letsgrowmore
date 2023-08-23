@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="ToDo.css">
+    <link rel="stylesheet" href="todo.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kanit:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,500&family=Libre+Caslon+Text:ital@0;1&family=Raleway:ital,wght@0,300;0,900;1,100;1,200;1,900&family=Roboto:wght@100;300&family=Titillium+Web:ital,wght@0,200;0,300;0,700;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2 style="color: white;">To-Do List <img src="img/to-do list icon.png" style="height: 50px; width: 50px;"></h2>
+            <div class="row">
+                <input type="text" id="task-input" placeholder="&nbsp;&nbsp;&nbsp;Add Yout Task" style="background-color: antiquewhite; border-radius: 15px; ">
+                <button onclick="addTask()">Add+</button>
+            </div>
+
+        <ul id="task-container" style="color: bisque;">
+        </ul>
+        
+    </div>
+    <!-- Java Script-->
+    <script src="todo.js"></script>
+    <footer>
+        <center> &copy;copyright </center>
+     </footer>
+
+</body>
+</html>
